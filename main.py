@@ -4,7 +4,7 @@ from langchain_community.llms import OpenAI
 import os
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API KEY"
 llm = OpenAI(temperature=0.5)
 template = """
 You are a Translator model
